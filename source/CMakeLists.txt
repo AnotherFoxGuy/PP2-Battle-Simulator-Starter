@@ -8,6 +8,7 @@ include(cotire)
 
 set(SOURCE_FILES
         ThreadPool.h
+        prerequisites.h
         explosion.{h,cpp}
         game.{h,cpp}
         particle_beam.{h,cpp}
@@ -16,7 +17,6 @@ set(SOURCE_FILES
         surface.{h,cpp}
         tank.{h,cpp}
         template.{h,cpp}
-        prerequisites.h
         )
 
 
@@ -31,10 +31,7 @@ generate_source_groups(${SOURCE_FILES})
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
 target_include_directories(${PROJECT_NAME} PUBLIC .)
-target_link_libraries(${PROJECT_NAME} PRIVATE OpenGL::GL)
-#target_link_libraries(${PROJECT_NAME} PRIVATE GLEW::GLEW)
-target_link_libraries(${PROJECT_NAME} PRIVATE CONAN_PKG::sdl2)
-target_link_libraries(${PROJECT_NAME} PRIVATE CONAN_PKG::freeimage)
+target_link_libraries(${PROJECT_NAME} PRIVATE OpenGL::GL CONAN_PKG::sdl2 CONAN_PKG::freeimage)
 
 cotire(${PROJECT_NAME})
 
