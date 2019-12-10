@@ -1,0 +1,12 @@
+[generators]
+cmake
+
+[requires]
+sdl2/2.0.10@bincrafters/stable
+#sdl2_image/2.0.5@bincrafters/stable
+freeimage/3.18.0@AnotherFoxGuy/stable
+
+
+[imports]
+bin, *.dll -> ./source @ keep_path=False
+lib, *.so* -> ./source @ keep_path=False
