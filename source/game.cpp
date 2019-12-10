@@ -1,6 +1,6 @@
 using namespace std;
 
-#include <jmorecfg.h>
+#include <string>
 #include <cstdio>
 #include <iostream>
 #include "surface.h"
