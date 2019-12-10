@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project ("PP2 Battle Simulator")
+project("PP2 Battle Simulator")
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake)
 include(FeatureSummary)
@@ -15,9 +15,6 @@ pmm(CONAN REMOTES OGRE-dependencies https://api.bintray.com/conan/anotherfoxguy/
         )
 
 find_package(OpenGL REQUIRED)
-#find_package(GLEW REQUIRED)
-#find_package(SDL2 REQUIRED)
-#find_package(FreeImage REQUIRED)
 
 # AVX2 support (Intel Haswell and higher)
 #set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} "-mavx2")
