@@ -4,7 +4,7 @@
 
 #include "surface.h"
 
-namespace Tmpl8 {
+namespace PP2 {
 
     void NotifyUser(const char *s);
 
@@ -535,4 +535,4 @@ namespace Tmpl8 {
         }
     }
 
-}; // namespace Tmpl8
+}; // namespace PP2

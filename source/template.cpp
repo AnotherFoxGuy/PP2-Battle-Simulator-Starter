@@ -19,7 +19,7 @@
 #include "prerequisites.h"
 #include <stdint.h>
 
-namespace Tmpl8 {
+namespace PP2 {
 
 // Math Stuff
 // ----------------------------------------------------------------------------
@@ -114,9 +114,9 @@ namespace Tmpl8 {
 #endif
         exit(0);
     }
-} // namespace Tmpl8
+} // namespace PP2
 
-using namespace Tmpl8;
+using namespace PP2;
 using namespace std;
 
 #ifdef ADVANCEDGL

@@ -1,6 +1,6 @@
 #include "particle_beam.h"
 
-namespace Tmpl8 {
+namespace PP2 {
 
     Particle_beam::Particle_beam()
             : min_position(), max_position(), particle_beam_sprite(nullptr), sprite_frame(0), rectangle(), damage(1) {
@@ -31,4 +31,4 @@ namespace Tmpl8 {
         particle_beam_sprite->Draw(screen, (int) (position.x - offsetX), (int) (position.y - offsetY));
     }
 
-} // namespace Tmpl8
+} // namespace PP2

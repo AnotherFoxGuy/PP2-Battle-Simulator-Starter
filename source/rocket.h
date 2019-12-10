@@ -4,7 +4,7 @@
 #include "tank.h"
 #include "surface.h"
 
-namespace Tmpl8 {
+namespace PP2 {
 
     class Rocket {
     public:
@@ -31,4 +31,4 @@ namespace Tmpl8 {
         Sprite *rocket_sprite;
     };
 
-} // namespace Tmpl8
+} // namespace PP2

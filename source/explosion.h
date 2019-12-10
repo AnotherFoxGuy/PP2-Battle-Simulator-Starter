@@ -3,7 +3,7 @@
 #include "surface.h"
 #include "template.h"
 
-namespace Tmpl8 {
+namespace PP2 {
 
     class Explosion {
     public:

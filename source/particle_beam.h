@@ -5,7 +5,7 @@
 #include "surface.h"
 #include "tank.h"
 
-namespace Tmpl8 {
+namespace PP2 {
     class Particle_beam {
     public:
         Particle_beam();
@@ -27,4 +27,4 @@ namespace Tmpl8 {
 
         Sprite *particle_beam_sprite;
     };
-} // namespace Tmpl8
+} // namespace PP2

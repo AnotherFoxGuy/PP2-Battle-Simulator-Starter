@@ -2,7 +2,7 @@
 
 #include "surface.h"
 
-namespace Tmpl8 {
+namespace PP2 {
 
     enum allignments {
         BLUE,
@@ -59,4 +59,4 @@ namespace Tmpl8 {
 
     };
 
-} // namespace Tmpl8
+} // namespace PP2

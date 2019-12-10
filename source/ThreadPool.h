@@ -5,7 +5,7 @@
 #include <vector>
 #include <deque>
 
-namespace Tmpl8 {
+namespace PP2 {
 
     class ThreadPool; //Forward declare
 
@@ -93,4 +93,4 @@ namespace Tmpl8 {
         }
     }
 
-} // namespace Tmpl8
+} // namespace PP2

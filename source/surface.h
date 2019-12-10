@@ -7,7 +7,7 @@
 #include <FreeImage.h>
 #include "template.h"
 
-namespace Tmpl8 {
+namespace PP2 {
 
 #define REDMASK (0xff0000)
 #define GREENMASK (0x00ff00)
@@ -197,4 +197,4 @@ namespace Tmpl8 {
         int m_CY2 = 0;
     };
 
-}; // namespace Tmpl8
+}; // namespace PP2

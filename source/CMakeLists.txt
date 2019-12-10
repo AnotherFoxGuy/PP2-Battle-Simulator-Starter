@@ -16,7 +16,8 @@ set(SOURCE_FILES
         surface.{h,cpp}
         tank.{h,cpp}
         template.{h,cpp}
-        prerequisites.h)
+        prerequisites.h
+        )
 
 
 include(SourceFileUtils)

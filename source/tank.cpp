@@ -1,6 +1,6 @@
 #include "tank.h"
 
-namespace Tmpl8 {
+namespace PP2 {
     Tank::Tank(
             float pos_x,
             float pos_y,
@@ -87,4 +87,4 @@ namespace Tmpl8 {
         force += direction * magnitude;
     }
 
-} // namespace Tmpl8
+} // namespace PP2

@@ -3,7 +3,7 @@
 #include "surface.h"
 #include "template.h"
 
-namespace Tmpl8 {
+namespace PP2 {
 
     class Smoke {
     public:
@@ -18,4 +18,4 @@ namespace Tmpl8 {
         int current_frame;
         Sprite &smoke_sprite;
     };
-} // namespace Tmpl8
+} // namespace PP2

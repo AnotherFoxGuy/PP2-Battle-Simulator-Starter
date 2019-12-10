@@ -8,7 +8,7 @@
 #include "particle_beam.h"
 #include <cstdint>
 
-namespace Tmpl8 {
+namespace PP2 {
 //forward declarations
     class Tank;
 
@@ -69,4 +69,4 @@ namespace Tmpl8 {
         bool lock_update = false;
     };
 
-}; // namespace Tmpl8
+}; // namespace PP2
