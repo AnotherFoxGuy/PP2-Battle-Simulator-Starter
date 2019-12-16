@@ -1,7 +1,6 @@
 #pragma once
 
 #include <vector>
-#include "template.h"
 #include "surface.h"
 #include "tank.h"
 
